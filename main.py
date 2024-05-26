@@ -5,7 +5,7 @@ def iniciar_producer():
     subprocess.run(["python", "Producer.py"])
 
 def iniciar_consumer():
-    subprocess.run(["python", "Consumer.py"])
+    subprocess.run(["python", "Consumidor.py"])
 
 if __name__ == "__main__":
     p1 = multiprocessing.Process(target=iniciar_producer)
